@@ -26,7 +26,7 @@ public class Menu {
 		this.opciones = opciones;
 	}
 	/**
-	 * Permite mostrar el menú
+	 * Permite mostrar el menÃº
 	 */
 
 	void mostrar(){
@@ -36,8 +36,8 @@ public class Menu {
 		}
 	}
 	/**
-	 * Permite recoger una opción válida del menú
-	 * @return entero introducido por teclado, que se corresponderá con una opción del menú
+	 * Permite recoger una opciÃ³n vÃ¡lida del menÃº
+	 * @return entero introducido por teclado
 	 */
 	int recogerOpcion(){
 		int opcion;
@@ -56,8 +56,8 @@ public class Menu {
 		this.opcion = opcion;
 	}
 /**
- * Gestiona el menú
- * @return número de opción recogida por teclado
+ * Gestiona el menÃº
+ * @return nÃºmero de opciÃ³n recogida por teclado
  */
 
 	public int gestionar(){
