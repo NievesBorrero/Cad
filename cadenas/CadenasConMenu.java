@@ -1,16 +1,16 @@
 package cadenas;
 import utiles.*;
 /**
- * Entrega la clase CadenasConMenu que muestre el siguiente menu. 
-	1.Capitaliza palabras: solicitar· al usuario una cadena por teclado y convertir· el primer caracter de cada palabra a may˙sculas. 
-	Mostrar· el resultado.
-	2.Extrae may˙sculas: solicitar· al usuario una cadena por teclado y extraer· las iniciales que est·n en may˙sculas acompaÒadas por 
-	un punto. Necesitar·s el mÈtodo Character.isUpperCase(caracter). Mostrar· el resultado.
+ * Entrega la clase CadenasConMenu que muestre el siguiente men√∫: 
+	1.Capitaliza palabras: solicitar√° al usuario una cadena por teclado y convertir√° el primer caracter de cada palabra a may√∫sculas. 
+	Mostrar√° el resultado.
+	2.Extrae may√∫sculas: solicitar√° al usuario una cadena por teclado y extraer√° las iniciales que est√°n en may√∫sculas acompa√±adas por 
+	un punto. Necesitar√°s el m√©todo Character.isUpperCase(caracter). Mostrar√° el resultado.
 	3.Salir.
 	
 	Requisitos:
-	Solo se recoger·n opciones de men˙ v·lidas (1, 2 y 3)
-	Utiliza mÈtodos en la medida de lo posible
+	Solo se recoger√°n opciones de men√∫ v√°lidas (1, 2 y 3)
+	Utiliza m√©todos en la medida de lo posible
 	Evita el uso de bucles infinitos
 	
  * @author Nieves Borrero
@@ -41,6 +41,7 @@ public class CadenasConMenu {
 	
 	/**
 	 * Convierte el primer caracter de cada palabra a mayuscula.
+	 * @return una nueva cadena
 	 */
 	public static String capitalizarCadena(){
 		
@@ -73,6 +74,7 @@ public class CadenasConMenu {
 	
 	/**
 	 * Extrae las iniciales que estan en mayuscula acompa√±adas por un punto.
+	 * * @return una nueva cadena.
 	 */
 	private static String extraerMayuscula() {
 		
