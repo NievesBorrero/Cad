@@ -41,7 +41,7 @@ public class CadenasConMenu {
 	
 	/**
 	 * Convierte el primer caracter de cada palabra a mayuscula.
-	 * @return una nueva cadena
+	 * @return nueva cadena
 	 */
 	public static String capitalizarCadena(){
 		
@@ -74,7 +74,7 @@ public class CadenasConMenu {
 	
 	/**
 	 * Extrae las iniciales que estan en mayuscula acompañadas por un punto.
-	 * * @return una nueva cadena.
+	 * * @return nueva cadena.
 	 */
 	private static String extraerMayuscula() {
 		
